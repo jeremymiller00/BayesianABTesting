@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+BayesianABTesting/BayesianABTesting.py
+BayesianABTesting/__init__.py
+BayesianABTesting.egg-info/PKG-INFO
+BayesianABTesting.egg-info/SOURCES.txt
+BayesianABTesting.egg-info/dependency_links.txt
+BayesianABTesting.egg-info/top_level.txt
+tests/__init__.py
+tests/test_BayesianABTesting.py

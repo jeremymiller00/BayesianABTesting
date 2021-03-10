@@ -1,2 +1,5 @@
 .idea/*
+BayesianABTesting.egg-info/PKG-INFO/*
+build/*
+dist/*
 
