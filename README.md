@@ -7,9 +7,9 @@ The most common use case is when the metric of interest is a measure of K succes
 
 Sample usage:
 
-`
-from BayesianABTesting.BayesianABTesting import BayesianABTesting
-data = {
+```python
+from BayesianABTesting.BayesianABTesting import BayesianABTesting  
+data = {  
   "a_trials": 1000,
   "a_successes": 100,
   "b_trials": 2000,
@@ -17,10 +17,10 @@ data = {
 }
 ab_test_ctr = BayesianABTesting(likelihood_function="binomial", data=data)
 result = ab_test_ctr.execute_test(metric="CTR")
-`
+```
 
 You can call some static methods to get info:
-`
+```python
 BayesianABTesting.get_likelihood_options()
 BayesianABTesting.get_required_data_fields()
-`
+```
